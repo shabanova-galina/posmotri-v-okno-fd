@@ -59,6 +59,7 @@ ol {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  position: relative;
 }
 
 .content__details {
@@ -71,6 +72,7 @@ ol {
   width: 711px;
   height: 386px;
   margin-bottom: 16px;
+  position:relative;
 }
 
 .result__video {
@@ -121,6 +123,7 @@ ol {
 .content__card-link {
   color: #FFFFFF;
   text-decoration: none;
+  display: block;
 }
 
 .content__video-card-title {
@@ -178,7 +181,7 @@ ol {
   padding: 0;
   margin: 0;
   font-family: Fira Sans Condensed, sans-serif;
-  background: none; 
+  background: none;
   color:#fff;
   font-size: 18px;
   appearance: none;
@@ -264,10 +267,6 @@ ol {
   outline-offset: 2px;
 }
 
-.content__card-link {
-  display: block;
-}
-
 .content__card-link_current {
   background-color: #545050;
 }
@@ -294,14 +293,6 @@ ol {
 
 a, button, input[type="checkbox"], input[type="text"], label {
   cursor: pointer;
-}
-
-.result__video-container {
-  position:relative;
-}
-
-.content__list-container {
-  position: relative;
 }
 
 /* Кастомный скроллбар */
