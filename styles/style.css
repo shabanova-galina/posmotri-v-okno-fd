@@ -54,7 +54,7 @@ ol {
 }
 
 .content__list-container {
-  max-height: 298px;
+  height: 298px;
   overflow-y: auto;
   display: flex;
   flex-direction: column;
@@ -176,8 +176,8 @@ ol {
 
 .search-form__textfield {
   border: none;
-  border-top: 1px solid #FFFFFF;
-  border-bottom: 1px solid #FFFFFF;
+  border-top: 1px solid currentColor;
+  border-bottom: 1px solid currentColor;
   padding: 0;
   margin: 0;
   font-family: Fira Sans Condensed, sans-serif;
@@ -235,19 +235,18 @@ ol {
   background: none;
   color: #FFFFFF;
   font-weight: bold;
+  height: 34px;
 }
 
 .search-form__submit-button {
   width: 194px;
-  height: 34px;
   align-self:flex-end;
 }
 
 .more-button {
-  height: 34px;
-  width: 100%;
   padding-top: 6px;
   padding-bottom: 6px;
+  margin: 3px;
 }
 
 .button:hover {
